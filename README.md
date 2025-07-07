@@ -1,7 +1,7 @@
 # VTyper
 A simple CNN model for classification of flavivirus sequences.
 
-### Packages required: 
+### Libraries / Packages required: 
 - Python 3.12
 - TensorFlow/Keras 3.10
 - numpy
