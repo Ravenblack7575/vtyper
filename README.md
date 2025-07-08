@@ -18,9 +18,11 @@ Demo: https://huggingface.co/spaces/Ravenblack7575/vtyper
 Example use:
 
 For FASTA file:
+
 python vtyper_predict.py --model 'path/to/model.keras' --fasta 'path/to/sequence.fasta'
 
 For manual input:
+
 python vtyper_predict.py --model 'path/to/model.keras'
 
 
