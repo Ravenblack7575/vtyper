@@ -6,15 +6,15 @@ A simple CNN model for classification of flavivirus sequences.
 
 Summary of Project generated using NotebookLM: The following is a summary of the project aim, methods, and findings for a GitHub introduction page, based on the provided sources:
 
-### Objectives
+#### Objectives
 
 The primary **objective** of this project was to **train and implement a model capable of predicting or classifying viral species based on a given input cDNA or genomic sequence**. Specifically, a deep learning model was built to classify **seven species of flavivirus**. The successful outcome offers a **faster alternative to computationally intensive methods like Blast** for applications such as **batch screening and sorting of contigs or assembled sequences**. This approach leverages the power of deep learning to identify unique patterns in genomic sequences, treating them similarly to how images are processed.
 
-### Methods
+#### Methods
 
 The classification model was built using a **basic convolutional neural network (CNN) architecture**. Sequences from the seven target flavivirus species (including Dengue Types 1 through 4, Zika Virus, West Nile Virus, and Japanese Encephalitis Virus) were downloaded from **NCBI Refseq and Genbank**. To prepare the sequences for the CNN, they were **vectorized using one-hot encoding**, which maps nucleotides (A, C, G, T) to unique binary vectors. A dedicated **final test set was set aside** before training commenced to prevent data contamination. The final simplified model architecture featured a single convolutional 2D layer, a MaxPooling2D layer, and dense layers culminating in a SoftMax output layer.
 
-### Results
+#### Results
 
 The **final simplified model achieved a test accuracy of 97.8%** (Test Loss: 0.0995), demonstrating an improvement over the initial design. When evaluated using the completely **unseen final test set (160 predictions), only 7 predictions did not match the true labels**. Crucially, the model was effective in **detecting a possible misidentified sequence deposited in Genbank**. One sequence (MZ284953.1) labeled as Dengue virus Type 3 in the Genbank database was predicted by the model as **Dengue virus Type 1 with 99% confidence**. This prediction was subsequently confirmed through a manual check using Blastn, validating the utility of the CNN model for quick screening and **finding errors in public databases**.
 
