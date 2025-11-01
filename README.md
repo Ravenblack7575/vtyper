@@ -4,7 +4,7 @@ A simple CNN model for classification of flavivirus sequences.
 
 ========================================================================
 
-Summary of Project generated using NotebookLM: 
+
 
 #### Objectives
 
@@ -17,6 +17,8 @@ The classification model was built using a **basic convolutional neural network 
 #### Results
 
 The **final simplified model achieved a test accuracy of 97.8%** (Test Loss: 0.0995), demonstrating an improvement over the initial design. When evaluated using the completely **unseen final test set (160 predictions), only 7 predictions did not match the true labels**. Crucially, the model was effective in **detecting a possible misidentified sequence deposited in Genbank**. One sequence (MZ284953.1) labeled as Dengue virus Type 3 in the Genbank database was predicted by the model as **Dengue virus Type 1 with 99% confidence**. This prediction was subsequently confirmed through a manual check using Blastn, validating the utility of the CNN model for quick screening and **finding errors in public databases**.
+
+(Summary of Project was generated using NotebookLM)
 
 =======================================================================
 
