@@ -4,7 +4,7 @@ A simple CNN model for classification of flavivirus sequences.
 
 ========================================================================
 
-Summary of Project generated using NotebookLM: The following is a summary of the project aim, methods, and findings for a GitHub introduction page, based on the provided sources:
+Summary of Project generated using NotebookLM: 
 
 #### Objectives
 
