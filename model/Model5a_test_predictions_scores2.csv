@@ -1,0 +1,9 @@
+,,,Prediction scores (Probability %),,,,,,,
+Accession Number,True Label,Predicted Label ,Den 1,Den 2,Den 3,Den 4,JEV,WNV,ZKV,Results of Original Sequence Blast
+KP188554.1,Dengue2,West_Nile_Virus,0.083,0.150,0.122,0.021,0.099,0.284,0.241,verified by Blast to be Dengue 2
+KU509279.1,Dengue3,Dengue2,0.269,0.329,0.221,0.059,0.017,0.028,0.078,verified as Dengue 3 by Blast
+MZ284953.1,Dengue3,Dengue1,0.993,0.003,0.001,0.001,0.000,0.001,0.001,Blastn results suggest this is a Dengue 1
+KP188560.1,Dengue4,Dengue2,0.095,0.360,0.345,0.127,0.009,0.022,0.042,verified as Dengue 4 by Blast
+LC069810.1,Dengue4,Dengue2,0.214,0.306,0.253,0.104,0.015,0.050,0.058,verified as Dengue 4 by Blast
+MG601754.1,Dengue4,Zika,0.061,0.151,0.051,0.012,0.119,0.225,0.381,verified as Dengue 4 by Blast
+HQ671691.1,West_Nile_Virus,Zika,0.062,0.183,0.108,0.051,0.040,0.242,0.314,verified by Blast as WNV
